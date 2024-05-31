@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="./JS/script.js" defer></script>
+    <title>Mario Game</title>
+</head>
+<body>
+    <div class="game-board">  
+        <div class="tela-inicial" id="tela-inicial">
+            <h1>Bem-vindo ao Mario Game</h1>
+            <button id="botaoJogar">JOGAR</button>
+        </div>
+        <div class="tela-final" id="tela-final">
+            <h1>Game Over</h1>
+            <p id="final-score"></p>
+            <button id="botaoRecomecar">RECOMEÇAR</button>
+        </div>
+        <img src="./Images/clouds.png" class="clouds">
+        <img src="./Images/clouds.png" class="clouds1">
+        <img src="./Images/mario.gif" class="mario">
+        <img src="./Images/pipe.png" class="pipe">
+        <audio class="tema" id="theme-mario" src="./Audios/theme-mario.mp3"></audio>
+        <audio class="over" id="game-over" src="./Audios/game-over.mp3"></audio>
+        <audio class="jump-sound" id="pulo" src="./Audios/jump-sound.mp3"></audio>
+        <div id="score">Score: 0</div>
+    </div>
+</body>
+</html>
